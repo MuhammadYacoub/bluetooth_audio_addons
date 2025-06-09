@@ -1,6 +1,6 @@
 {
   "name": "Custom Bluetooth Audio Addons",
-  "url": "https://github.com/MuhammadYacoub/bluetooth_audio_addons",
+  "url": "https://raw.githubusercontent.com/MuhammadYacoub/bluetooth_audio_addons/main",
   "maintainer": "Mohamed Yacoub",
   "addons": ["bluetooth_audio_bridge"]
 }
