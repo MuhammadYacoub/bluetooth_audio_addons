@@ -1,0 +1,16 @@
+name: "Bluetooth Audio Bridge"
+version: "1.0"
+slug: "bluetooth_audio_bridge"
+description: "Addon to enable Bluetooth audio output using PulseAudio and BlueZ"
+startup: services
+boot: auto
+host_network: true
+audio: true
+privileged:
+  - SYS_ADMIN
+  - NET_ADMIN
+devices:
+  - /dev/snd
+  - /dev/bus/usb
+options: {}
+schema: {}
